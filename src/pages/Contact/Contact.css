@@ -1,0 +1,52 @@
+/* Contact Page Styles */
+
+/* Hero Banner */
+.contact-hero {
+  height: 100px;
+  background-image: url('/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Contact Card */
+.contact-card {
+  border: 1px solid #e0e0e0;
+}
+
+.contact-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+.contact-section .form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding-left: 0;
+}
+
+.contact-section .form-control:focus {
+  box-shadow: none;
+  border-bottom-color: #0d6efd;
+}
+
+/* Map Container */
+.map-container {
+  border-radius: 5px;
+  overflow: hidden;
+}

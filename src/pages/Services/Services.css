@@ -1,0 +1,43 @@
+/* Services Page Styles */
+
+/* Hero Banner */
+.services-hero {
+  height: 200px;
+  background-image: url('/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.services-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Title Underline */
+.title-underline {
+  width: 200px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin-top: 15px;
+}
+
+/* Service Cards */
+.service-card {
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  background-color: #efefef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #0d6efd;
+}

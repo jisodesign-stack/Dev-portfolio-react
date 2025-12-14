@@ -9,7 +9,10 @@ function Contact() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="contact-hero">
+      <section 
+        className="contact-hero"
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/banner.jpg)` }}
+      >
         <div className="contact-overlay"></div>
       </section>
 

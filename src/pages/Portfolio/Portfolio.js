@@ -3,42 +3,42 @@ import './Portfolio.css';
 function Portfolio() {
   const projects = [
     {
-      image: '/images/portfolio/fresh-food.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/fresh-food.jpg',
       title: 'Fresh Food',
       description: 'Site de vente de produits frais en ligne',
       techno: 'Site réalisé avec PHP et MySQL',
       link: '#'
     },
     {
-      image: '/images/portfolio/restaurant.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/restaurant-japonais.jpg',
       title: 'Restaurant Akira',
       description: 'Site de vente de produits frais en ligne',
       techno: 'Site réalisé avec WordPress',
       link: '#'
     },
     {
-      image: '/images/portfolio/spa.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/espace-bien-etre.jpg',
       title: 'Espace bien-être',
       description: 'Site de vente de produits frais en ligne',
       techno: 'Site réalisé avec LARAVEL',
       link: '#'
     },
     {
-      image: '/images/portfolio/seo.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/seo.jpg',
       title: 'SEO',
       description: "Amélioration du référencement d'un site e-commerce",
       techno: 'Utilisation des outils SEO',
       link: '#'
     },
     {
-      image: '/images/portfolio/api.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/coder.jpg',
       title: "Création d'une API",
       description: "Création d'une API RESTFULL publique",
       techno: 'PHP - SYMFONY',
       link: '#'
     },
     {
-      image: '/images/portfolio/maquette.jpg',
+      image: process.env.PUBLIC_URL + '/images/portfolio/screens.jpg',
       title: "Maquette d'un site web",
       description: "Création du prototype d'un site",
       techno: 'Réalisé avec FIGMA',
@@ -49,7 +49,10 @@ function Portfolio() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="portfolio-hero">
+      <section 
+        className="portfolio-hero"
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/banner.jpg)` }}
+      >
         <div className="portfolio-overlay"></div>
       </section>
 

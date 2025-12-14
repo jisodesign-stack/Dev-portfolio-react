@@ -5,7 +5,10 @@ function MentionsLegales() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="mentions-hero">
+      <section 
+        className="mentions-hero"
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/banner.jpg)` }}
+      >
         <div className="mentions-overlay"></div>
       </section>
 

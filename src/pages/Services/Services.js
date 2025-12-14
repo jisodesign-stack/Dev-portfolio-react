@@ -22,7 +22,10 @@ function Services() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="services-hero">
+      <section 
+        className="services-hero"
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/banner.jpg)` }}
+      >
         <div className="services-overlay"></div>
       </section>
 

@@ -16,7 +16,10 @@ function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-section">
+      <section 
+        className="hero-section"
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero-bg.jpg)` }}
+      >
         <div className="hero-overlay">
           <div className="hero-content text-center text-white">
             <h1 className="display-3 fw-bold">Bonjour, je suis John Doe</h1>
@@ -39,7 +42,7 @@ function Home() {
             <div className="col-lg-6 mb-4 mb-lg-0">
               <h2 className="mb-4">A propos</h2>
               <img 
-                src="/images/john-doe.jpg" 
+                src={process.env.PUBLIC_URL + '/images/john-doe.jpg'} 
                 alt="John Doe - Développeur Web" 
                 className="img-fluid mb-3 about-image"
               />

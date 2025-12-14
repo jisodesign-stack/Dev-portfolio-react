@@ -1,0 +1,22 @@
+/* Footer Styles */
+.footer-link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #adb5bd;
+}

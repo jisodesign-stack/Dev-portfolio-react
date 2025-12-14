@@ -1,0 +1,44 @@
+/* Mentions Légales Page Styles */
+
+/* Hero Banner */
+.mentions-hero {
+  height: 100px;
+  background-image: url('/images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mentions-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Accordion Styles */
+.accordion-button {
+  font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e7f1ff;
+  color: #0c63e4;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+
+/* Links */
+.mentions-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.mentions-link:hover {
+  text-decoration: underline;
+}

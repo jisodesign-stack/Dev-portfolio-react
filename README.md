@@ -1,8 +1,18 @@
 # Portfolio John Doe - Développeur Web Full Stack
 
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 📋 Description
 
 Portfolio professionnel réalisé dans le cadre de la formation de développeur web au Centre Européen de Formation. Ce projet présente les compétences et réalisations de John Doe, développeur web full stack.
+
+🔗 **Repository** : [https://github.com/jisodesign-stack/Dev-portfolio-react](https://github.com/jisodesign-stack/Dev-portfolio-react)
+
+## 🖼️ Aperçu
+
+![Home Page](public/images/hero-bg.jpg)
 
 ## 🛠️ Technologies utilisées
 
@@ -22,8 +32,8 @@ Portfolio professionnel réalisé dans le cadre de la formation de développeur 
 
 1. **Cloner le repository**
    ```bash
-   git clone https://github.com/votre-username/portfolio-react.git
-   cd portfolio-react
+   git clone https://github.com/jisodesign-stack/Dev-portfolio-react.git
+   cd Dev-portfolio-react
    ```
 
 2. **Installer les dépendances**
@@ -49,7 +59,8 @@ portfolio-react/
 │   │   ├── hero-bg.jpg         # Image de fond Hero
 │   │   ├── banner.jpg          # Bannière des pages
 │   │   └── john-doe.jpg        # Photo de profil
-│   └── favicon.png
+│   ├── favicon.svg             # Favicon JD
+│   └── index.html
 ├── src/
 │   ├── components/
 │   │   ├── Header/             # Composant Header
@@ -99,11 +110,22 @@ npm test     # Lancer les tests
 
 ## 👤 Auteur
 
-**John Doe**
+**John Doe** (Projet fictif - Formation CEF)
+
 - 📍 40 rue Laure Diebold, 69009 Lyon
 - 📧 john.doe@gmail.com
 - 📱 10 20 30 40 50
+- 🐙 [GitHub](https://github.com/github-john-doe)
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
 
 ## 📜 Licence
 
-Ce projet est réalisé dans le cadre d'une formation. Les images sont libres de droits (Pixabay).
+Ce projet est réalisé dans le cadre d'une formation au Centre Européen de Formation. 
+Les images sont libres de droits (Pixabay).
+
+---
+
+⭐ **N'hésitez pas à mettre une étoile si ce projet vous a été utile !**

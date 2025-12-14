@@ -18,8 +18,8 @@ h1, h2, h3, h4, h5, h6, strong {
 
 /* Title Underline */
 .title-underline {
-  width: 200px;
-  height: 3px;
+  width: 350px;
+  height: 4px;
   background-color: #0d6efd;
   margin-top: 15px;
 }

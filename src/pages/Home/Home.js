@@ -40,7 +40,8 @@ function Home() {
           <div className="row">
             {/* Colonne À propos */}
             <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2 className="mb-4">A propos</h2>
+              <h2 className="mb-2">A propos</h2>
+              <div className="title-underline mb-4"></div>
               <img 
                 src={process.env.PUBLIC_URL + '/images/john-doe.jpg'} 
                 alt="John Doe - Développeur Web" 
@@ -65,7 +66,8 @@ function Home() {
 
             {/* Colonne Compétences */}
             <div className="col-lg-6">
-              <h2 className="mb-4">Mes compétences</h2>
+              <h2 className="mb-2">Mes compétences</h2>
+              <div className="title-underline mb-4"></div>
               {skills.map((skill, index) => (
                 <div key={index} className="mb-3">
                   <div className="d-flex justify-content-between mb-1">

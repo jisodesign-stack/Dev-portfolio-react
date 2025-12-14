@@ -1,7 +1,8 @@
 # Portfolio John Doe - Développeur Web Full Stack
 
-![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap)
+![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap)
+![React Router](https://img.shields.io/badge/React_Router-7.x-CA4245?logo=reactrouter)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📋 Description
@@ -16,16 +17,16 @@ Portfolio professionnel réalisé dans le cadre de la formation de développeur 
 
 ## 🛠️ Technologies utilisées
 
-- **React.js** (v18) - Framework JavaScript
-- **Create React App** - Configuration du projet
-- **Bootstrap 5** - Framework CSS
-- **React Bootstrap** - Composants Bootstrap pour React
-- **React Router DOM** - Gestion du routage
-- **Bootstrap Icons** - Icônes
+- **React.js** (v19.2) - Bibliothèque JavaScript pour les interfaces utilisateur
+- **Create React App** (v5) - Configuration et bundling du projet
+- **Bootstrap** (v5.3) - Framework CSS responsive
+- **React Bootstrap** (v2.10) - Composants Bootstrap pour React
+- **React Router DOM** (v7.10) - Gestion du routage SPA
+- **Bootstrap Icons** (v1.13) - Bibliothèque d'icônes
 
 ## 📦 Prérequis
 
-- **Node.js** (version 18 ou supérieure)
+- **Node.js** (version 18 ou supérieure recommandée)
 - **npm** (version 9 ou supérieure)
 
 ## 🚀 Installation
@@ -59,7 +60,7 @@ portfolio-react/
 │   │   ├── hero-bg.jpg         # Image de fond Hero
 │   │   ├── banner.jpg          # Bannière des pages
 │   │   └── john-doe.jpg        # Photo de profil
-│   ├── favicon.svg             # Favicon JD
+│   ├── anonym.png              # Favicon
 │   └── index.html
 ├── src/
 │   ├── components/
@@ -128,4 +129,4 @@ Les images sont libres de droits (Pixabay).
 
 ---
 
-⭐ **N'hésitez pas à mettre une étoile si ce projet vous a été utile !**
+
